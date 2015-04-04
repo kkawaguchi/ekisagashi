@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkisagashiClient.Windows", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkisagashiClient.WindowsPhone", "EkisagashiClient\EkisagashiClient.WindowsPhone\EkisagashiClient.WindowsPhone.csproj", "{538D2605-4EDF-4AB9-8603-0C62BBFA2869}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkisagashiServer", "EkisagashiServer\EkisagashiServer.csproj", "{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		EkisagashiClient\EkisagashiClient.Shared\EkisagashiClient.Shared.projitems*{8e31c19b-a144-4e34-a7b2-9642a2d8c04f}*SharedItemsImports = 13
@@ -72,6 +74,16 @@ Global
 		{538D2605-4EDF-4AB9-8603-0C62BBFA2869}.Release|x86.ActiveCfg = Release|x86
 		{538D2605-4EDF-4AB9-8603-0C62BBFA2869}.Release|x86.Build.0 = Release|x86
 		{538D2605-4EDF-4AB9-8603-0C62BBFA2869}.Release|x86.Deploy.0 = Release|x86
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F4E183E-7FB3-4A1E-BB3D-C4A6D2A6E8E9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
