@@ -14,6 +14,12 @@ namespace EkisagashiServer.Controllers
         {
             return new string[] { "value1", "value2" };
         }
+        
+        // GET api/values
+        public IEnumerable<string> Get(string query)
+        {
+            return new string[] { query };
+        }
 
         // GET api/values/5
         public string Get(int id)
