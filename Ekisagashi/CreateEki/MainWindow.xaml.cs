@@ -27,7 +27,8 @@ namespace CreateEki
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            //xmlファイルを読み込んで
+            //逐次登録する
         }
     }
 }

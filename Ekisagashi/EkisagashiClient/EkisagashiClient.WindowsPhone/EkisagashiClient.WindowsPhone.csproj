@@ -83,6 +83,7 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateData.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -90,6 +91,7 @@
     <Compile Include="StationInformationDialog.xaml.cs">
       <DependentUpon>StationInformationDialog.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewData.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
